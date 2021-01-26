@@ -5,7 +5,6 @@ namespace TheTestCoder\LaravelPackageStructure\Tests\Unit;
 use TheTestCoder\LaravelPackageStructure\LaravelPackageStructure;
 use TheTestCoder\LaravelPackageStructure\Tests\TestCase;
 
-
 class LaravelPackageStructureTest extends TestCase
 {
     /** @test */
