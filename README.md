@@ -1,11 +1,35 @@
-# Very short description of the package
+# Project Info
+
+## Budge Goes Here
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thetestcoder/laravel-package-structure.svg?style=flat-square)](https://packagist.org/packages/thetestcoder/laravel-package-structure)
 [![Build Status](https://img.shields.io/travis/thetestcoder/laravel-package-structure/master.svg?style=flat-square)](https://travis-ci.org/thetestcoder/laravel-package-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/thetestcoder/laravel-package-structure.svg?style=flat-square)](https://scrutinizer-ci.com/g/thetestcoder/laravel-package-structure)
 [![Total Downloads](https://img.shields.io/packagist/dt/thetestcoder/laravel-package-structure.svg?style=flat-square)](https://packagist.org/packages/thetestcoder/laravel-package-structure)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+## Clone Package
+
+```bash
+git clone https://github.com/thetestcoder/php-package-structure project-name
+```
+
+## Change After Clone
+
+1. composer.json
+2. README.md
+3. LICENCE.md
+4. CONTRIBUTING.md (Add Your Email ID)
+5. CHANGELOG.md  (Add Your package name)
+6. SECURITY.md  (Add Your Email ID)
+7. FUNDING.md
+
+## After Changes
+
+1. composer install
+2. start writing code in src directory
+3. test your code in tests directory
+4. check hint from existing file
+5. just remove from here to top all lines till Clone Package after successfully clone and editing done
 
 ## Installation
 
@@ -47,7 +71,3 @@ If you discover any security related issues, please email thetestcoder@gmail.com
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
