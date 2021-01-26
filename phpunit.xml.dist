@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="vendor/autoload.php"
+<phpunit bootstrap="./vendor/autoload.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          colors="true"
@@ -10,11 +10,8 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Feature Test Suite">
-            <directory suffix="Test.php">tests/Feature/</directory>
-        </testsuite>
-        <testsuite name="Unit Test Suite">
-            <directory suffix="Test.php">tests/Unit/</directory>
+        <testsuite name="Test Suite">
+            <directory suffix="Test.php">tests/</directory>
         </testsuite>
     </testsuites>
     <filter>
