@@ -1,0 +1,5 @@
+test-reports
+composer.lock
+docs
+vendor
+coverage
