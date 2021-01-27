@@ -5,7 +5,7 @@ namespace TheTestCoder\LaravelPackageStructure;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Thetestcoder\LaravelPackageStructure\Skeleton\SkeletonClass
+ * @see \Thetestcoder\LaravelPackageStructure\LaravelPackageStructure
  */
 class LaravelPackageStructureFacade extends Facade
 {
