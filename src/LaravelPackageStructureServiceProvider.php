@@ -11,11 +11,17 @@ class LaravelPackageStructureServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
+        // Use When you need to load assets
+        //        $this
+        //            ->loadViews()
+        //            ->loadMigrations()
+        //            ->loadTranslations()
+        //            ->loadRoutes()
+        //            ->registerPublishes()
+        //            ->registerCommands();
+
         $this
-            ->loadViews()
-            ->loadMigrations()
-            ->loadTranslations()
-            ->loadRoutes()
             ->registerPublishes()
             ->registerCommands();
     }
