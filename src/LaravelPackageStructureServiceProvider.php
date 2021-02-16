@@ -53,17 +53,17 @@ class LaravelPackageStructureServiceProvider extends ServiceProvider
 
             // Publishing the views.
             $this->publishes([
-                __DIR__ . '/../resources/views' => resource_path('views/vendor/laravel-package-structure'),
+                __DIR__ . './resources/views' => resource_path('views/vendor/laravel-package-structure'),
             ], 'views');
 
             // Publishing assets.
             $this->publishes([
-                __DIR__ . '/../resources/assets' => public_path('vendor/laravel-package-structure'),
+                __DIR__ . './resources/assets' => public_path('vendor/laravel-package-structure'),
             ], 'assets');
 
             // Publishing the translation files.
             $this->publishes([
-                __DIR__ . '/../resources/lang' => resource_path('lang/vendor/laravel-package-structure'),
+                __DIR__ . './resources/lang' => resource_path('lang/vendor/laravel-package-structure'),
             ], 'lang');
         }
 
@@ -90,7 +90,7 @@ class LaravelPackageStructureServiceProvider extends ServiceProvider
      */
     private function loadViews(): self
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel-package-structure');
+        $this->loadViewsFrom(__DIR__ . './resources/views', 'laravel-package-structure');
 
         return $this;
     }
@@ -101,7 +101,7 @@ class LaravelPackageStructureServiceProvider extends ServiceProvider
      */
     private function loadTranslations(): self
     {
-        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'laravel-package-structure');
+        $this->loadTranslationsFrom(__DIR__ . './resources/lang', 'laravel-package-structure');
 
         return $this;
     }
